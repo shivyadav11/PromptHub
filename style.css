@@ -1,0 +1,209 @@
+body{
+font-family:'Segoe UI', Arial, sans-serif;
+margin:0;
+background:#eef0f5;
+line-height:1.7;
+color:#333;
+}
+
+
+.navbar{
+display:flex;
+justify-content:space-between;
+align-items:center;
+background:#2c4a9a;
+color:white;
+padding:18px 40px;
+}
+
+.menu a{
+color:white;
+margin-left:25px;
+text-decoration:none;
+font-size:15px;
+transition:0.3s;
+}
+
+.menu a:hover{
+opacity:0.8;
+}
+
+
+
+.search{
+padding:6px 10px;
+border-radius:5px;
+border:none;
+}
+
+.search-btn{
+padding:6px 12px;
+background:#2c4a9a;
+color:white;
+border:none;
+border-radius:4px;
+margin-left:5px;
+cursor:pointer;
+}
+
+
+
+.hero{
+display:flex;
+align-items:center;
+justify-content:space-between;
+padding:70px 80px;
+background:#f2f3f7;
+}
+
+.hero-text{
+max-width:500px;
+}
+
+.hero-text h1{
+font-size:38px;
+margin-bottom:15px;
+color:#1f2a44;
+}
+
+.hero-img img{
+width:800px;
+}
+
+
+
+.btn{
+display:inline-block;
+margin-top:15px;
+padding:10px 18px;
+background:#2c4a9a;
+color:white;
+text-decoration:none;
+border-radius:6px;
+transition:0.3s;
+}
+
+.btn:hover{
+background:#1f3577;
+}
+
+
+
+.cards{
+display:flex;
+justify-content:center;
+gap:25px;
+padding:40px;
+}
+
+.card{
+background:white;
+padding:25px;
+width:250px;
+border-radius:10px;
+box-shadow:0 4px 12px rgba(0,0,0,0.08);
+text-align:center;
+transition:0.3s;
+}
+
+.card:hover{
+transform:translateY(-5px);
+box-shadow:0 8px 18px rgba(0,0,0,0.12);
+}
+
+.card a{
+display:block;
+margin-top:10px;
+color:#2c4a9a;
+text-decoration:none;
+font-weight:500;
+}
+
+
+
+.content{
+max-width:850px;
+margin:60px auto;
+padding:50px;
+background:white;
+border-radius:10px;
+box-shadow:0 6px 18px rgba(0,0,0,0.08);
+}
+
+
+.content h1{
+font-size:32px;
+margin-bottom:20px;
+color:#1f2a44;
+}
+
+.content h2{
+margin-top:30px;
+color:#2c4a9a;
+}
+
+
+.content p{
+margin-bottom:18px;
+}
+
+
+.highlight{
+background:#f3f6ff;
+border-left:5px solid #2c4a9a;
+padding:15px;
+margin:20px 0;
+border-radius:5px;
+}
+
+
+
+.tip{
+background:#e8f7ee;
+border-left:5px solid #2ecc71;
+padding:15px;
+margin:20px 0;
+border-radius:5px;
+}
+
+
+.about{
+max-width:900px;
+margin:auto;
+padding:50px;
+text-align:center;
+}
+
+.about h2{
+margin-bottom:15px;
+}
+
+
+
+footer{
+background:#2c4a9a;
+color:white;
+text-align:center;
+padding:18px;
+margin-top:40px;
+}
+
+
+
+@media(max-width:900px){
+
+.hero{
+flex-direction:column;
+text-align:center;
+}
+
+.hero-img img{
+margin-top:20px;
+}
+
+.cards{
+flex-direction:column;
+align-items:center;
+}
+
+}
