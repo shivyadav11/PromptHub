@@ -14,15 +14,17 @@
 
 <body>
 
-
-
 <header class="navbar">
 
 <div class="logo">
 PromptHub
 </div>
 
-<nav class="menu">
+<div class="menu-toggle" onclick="toggleMenu()">
+☰
+</div>
+
+<nav class="menu" id="menu">
 
 <a href="index.html">Home</a>
 <a href="introduction.html">Introduction</a>
@@ -31,8 +33,6 @@ PromptHub
 <a href="examples.html">Examples</a>
 
 </nav>
-
-
 
 <div class="search-box">
 
@@ -88,18 +88,13 @@ Start Learning
 
 <p>
 This portal is designed to provide a clear theoretical
-understanding of prompt engineering. Prompt engineering
-is an important skill when working with artificial
-intelligence systems because the quality of prompts
-directly affects the quality of AI responses.
+understanding of prompt engineering.
 </p>
 
 <p>
 The portal contains multiple sections including
-introduction, core concepts, prompt techniques,
-and practical examples. Each section explains
-how prompts work and how users can design
-better instructions for AI models.
+introduction, concepts, techniques,
+and examples of prompt engineering.
 </p>
 
 </section>
@@ -117,5 +112,4 @@ Build With 💖
 <script src="script.js"></script>
 
 </body>
-
 </html>
