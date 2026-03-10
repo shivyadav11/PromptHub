@@ -207,3 +207,51 @@ align-items:center;
 }
 
 }
+
+
+.nav-left{
+display:flex;
+align-items:center;
+gap:15px;
+}
+
+/* hamburger */
+
+.menu-toggle{
+display:none;
+font-size:26px;
+cursor:pointer;
+}
+
+/* MOBILE */
+
+@media(max-width:768px){
+
+.menu{
+display:none;
+flex-direction:column;
+position:absolute;
+top:70px;
+left:0;
+width:100%;
+background:#2c4a9a;
+}
+
+.menu a{
+display:block;
+padding:10px;
+}
+
+.menu.active{
+display:flex;
+}
+
+.menu-toggle{
+display:block;
+}
+
+.search-box{
+display:none;
+}
+
+}
