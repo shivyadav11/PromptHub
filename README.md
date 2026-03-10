@@ -21,6 +21,9 @@ Responsive layout for better reading experience
 
 Project Structure :
 
+## Project Structure
+
+```
 prompt-hub
 │
 ├── index.html
@@ -33,6 +36,7 @@ prompt-hub
 ├── script.js
 │
 └── hero-image.png
+```
 
 How It Works:
 
