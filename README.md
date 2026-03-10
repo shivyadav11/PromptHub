@@ -1,60 +1,72 @@
-PromptHub
+# PromptHub
 
-PromptHub is a simple educational web portal that explains the theoretical concepts of prompt engineering used in AI models.
-The portal provides structured information about introduction, concepts, techniques, and examples of prompt engineering in a clean and readable interface.
+PromptHub is a simple educational web portal that explains the theoretical concepts of prompt engineering used in AI models.  
+The portal provides structured information about **Introduction, Concepts, Techniques, and Examples** of prompt engineering in a clean and readable interface.
 
-Tech Stack :
+---
 
-HTML
-CSS
-JavaScript
+## Tech Stack
 
-Features :
+- HTML  
+- CSS  
+- JavaScript  
 
-Multi-page educational web portal
-Clean and simple user interface
-Navigation menu for easy access to topics
-Hero section with illustration
-Topic search functionality
-Structured content sections
-Responsive layout for better reading experience
+---
 
-Project Structure :
+## Features
+
+- Multi-page educational web portal  
+- Clean and simple user interface  
+- Navigation menu for easy access to topics  
+- Hero section with illustration  
+- Topic search functionality  
+- Structured content sections  
+- Responsive layout for better reading experience  
+
+---
 
 ## Project Structure
 
 ```
-prompt-hub
+prompt-hub/
 │
-├── index.html
-├── introduction.html
-├── concepts.html
-├── techniques.html
-├── examples.html
+├── index.html          # Home page
+├── introduction.html   # Introduction to prompt engineering
+├── concepts.html       # Core concepts of prompt engineering
+├── techniques.html     # Prompt engineering techniques
+├── examples.html       # Prompt examples
 │
-├── style.css
-├── script.js
+├── style.css           # Website styling
+├── script.js           # Search functionality
 │
-└── hero-image.png
+└── hero-image.png      # Hero section illustration
 ```
 
-How It Works:
+---
 
-The Home page introduces the topic of prompt engineering.
+## How It Works
+
+The **Home page** introduces the topic of prompt engineering.
+
 Each page explains a specific concept:
 
-Introduction
-Concepts
-Techniques
-Examples
+- Introduction  
+- Concepts  
+- Techniques  
+- Examples  
 
-CSS is used to create a clean and readable layout.
-JavaScript is used to implement a simple search feature for navigating topics.
+CSS is used to create a **clean and readable layout** for the portal.
 
-How to Run the Project :
+JavaScript is used to implement a **simple search feature** that helps users navigate between topic pages.
 
-Download or clone the repository
-Open the project folder
-Run index.html in a web browser
+---
 
-⭐ This project demonstrates how a simple educational web portal can be built using basic web development technologies....
+## How to Run the Project
+
+1. Download or clone the repository  
+2. Open the project folder  
+3. Run **index.html** in any web browser  
+
+---
+
+⭐ This project demonstrates how a simple educational web portal can be built using basic web development technologies.
